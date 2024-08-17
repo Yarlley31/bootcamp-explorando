@@ -7,13 +7,22 @@ namespace bootcamp_explorando.Models
 {
     public class Pessoa
     {
-        // Temos que validar o get e o set.
+        public Pessoa()
+        {
+
+        }
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
 
         // criando um campo
         private string _nome;
         private int _idade;
         public string Nome 
         {
+            // Aqui ocorre a validação do get e set
             // body expression "=>"
             get => _nome.ToUpper();
 
