@@ -1,0 +1,14 @@
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\bootcamp-explorando.exe
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\bootcamp-explorando.deps.json
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\bootcamp-explorando.runtimeconfig.json
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\bootcamp-explorando.dll
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\bootcamp-explorando.pdb
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.AssemblyInfoInputs.cache
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.AssemblyInfo.cs
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.csproj.CoreCompileInputs.cache
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.dll
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\refint\bootcamp-explorando.dll
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.pdb
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.genruntimeconfig.cache
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\ref\bootcamp-explorando.dll
