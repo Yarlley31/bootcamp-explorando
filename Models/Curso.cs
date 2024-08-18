@@ -31,9 +31,11 @@ namespace bootcamp_explorando.Models
         public void ListarAlunos()
         {
             Console.WriteLine("Alunos matriculados no curso");
-            foreach(Pessoa aluno in Alunos)
+            
+            for(int count = 0; count < Alunos.Count; count++)
             {
-                Console.WriteLine($"Aluno(a): {aluno.NomeCompleto}");
+                string texto = "N° " + count + " - " + Alunos[count].NomeCompleto;
+                Console.WriteLine(texto);
             }
         }
     }
