@@ -2,23 +2,75 @@
 using System.Data;
 using System.Globalization;
 
-string dataString = "2024-08-20 20:48";
+// FIFO first in first out
+Queue<int> fila = new Queue<int>();
 
-bool sucesso = DateTime.TryParseExact(dataString,
-                        "yyyy-MM-dd hh:mm",
-                        CultureInfo.InvariantCulture,
-                        DateTimeStyles.None, out DateTime data);
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
 
-Console.WriteLine(data);
-
-if (sucesso)
+foreach(int item in fila)
 {
-    Console.WriteLine($"Conversão com sucesso: {data}");
+    Console.WriteLine(item);
 }
-else
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+fila.Enqueue(10);
+
+foreach(int item in fila)
 {
-    Console.WriteLine($"{dataString} não é uma data válida");
+    Console.WriteLine(item);
 }
+
+
+
+// new ExemploExcexao().Metodo1();
+
+
+// try {
+//     string[] linhas = File.ReadAllLines("Arquivos/X-Files.txt");
+
+//     foreach(string linha in linhas)
+//     {
+//         Console.WriteLine(linha); 
+//     }
+// } catch(FileNotFoundException exceção)
+// {
+//     Console.WriteLine($"Ocorreu um erro ao ler o arquivo. Arquivo não encontrado: {exceção.Message}");
+// } 
+// catch(Exception ex)
+// {
+//     //achei esse jeito melhor
+//     Console.WriteLine($"Ocorreu uma exceção genérica: {ex.Message}");
+// }
+// finally
+// {
+//     Console.WriteLine("Chegou até aqui!");
+// }
+
+
+
+
+
+
+// string dataString = "2024-08-20 20:48";
+
+// bool sucesso = DateTime.TryParseExact(dataString,
+//                         "yyyy-MM-dd hh:mm",
+//                         CultureInfo.InvariantCulture,
+//                         DateTimeStyles.None, out DateTime data);
+
+// Console.WriteLine(data);
+
+// if (sucesso)
+// {
+//     Console.WriteLine($"Conversão com sucesso: {data}");
+// }
+// else
+// {
+//     Console.WriteLine($"{dataString} não é uma data válida");
+// }
 
 
 
