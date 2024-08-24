@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bootcamp-explorando")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c2683dad6608065127eb900d8d395b24025ca3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd875213ab85055d6d6a39be006251b5ca8863e")]
 [assembly: System.Reflection.AssemblyProductAttribute("bootcamp-explorando")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bootcamp-explorando")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,26 +2,80 @@
 using System.Data;
 using System.Globalization;
 
-// FIFO first in first out
-Queue<int> fila = new Queue<int>();
+Dictionary<string, string> estados = [];
 
-fila.Enqueue(2);
-fila.Enqueue(4);
-fila.Enqueue(6);
-fila.Enqueue(8);
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+estados.Add("SP", "São Paulo");
 
-foreach(int item in fila)
+foreach(var item in estados)
 {
-    Console.WriteLine(item);
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
 
-Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
-fila.Enqueue(10);
+Console.WriteLine("------------------");
 
-foreach(int item in fila)
+estados.Remove("SP");
+estados["BA"] = "Bahia, melhor estado do Brasil";
+
+foreach(var item in estados)
 {
-    Console.WriteLine(item);
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
+
+
+
+
+
+
+
+
+
+// // jeito mais curto de usar o new
+// Stack<int> pilha = new();
+
+// // adicionando na pilha
+// pilha.Push(3);
+// pilha.Push(5);
+// pilha.Push(7);
+// pilha.Push(9);
+
+// foreach (int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// // removendo da pilha
+// Console.WriteLine($"Removido o item do topo: {pilha.Pop()}");
+
+// pilha.push
+
+// foreach(int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+// // FIFO first in first out
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+// fila.Enqueue(10);
+
+// foreach(int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
 
 
 
