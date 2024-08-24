@@ -2,29 +2,54 @@
 using System.Data;
 using System.Globalization;
 
-Dictionary<string, string> estados = [];
+(int ID, string Nome, string Sobrenome, decimal Altura) registro = (1, "Marcos", "Matos", 1.70M);
 
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
-estados.Add("SP", "São Paulo");
+ValueTuple<int, string, string, decimal> outroExemploTupla = (2, "Danielle", "Oliveira", 1.68M);
 
-foreach(var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
+var outroExemploTuplaCreate = Tuple.Create(1, "Yarlley", "Fernandes", 1.71M);
 
-Console.WriteLine("------------------");
+Console.WriteLine($"ID: {registro.ID}");
+Console.WriteLine($"Nome: {registro.Nome}");
+Console.WriteLine($"Sobrenome: {registro.Sobrenome}");
+Console.WriteLine($"Altura: {registro.Altura}");
 
-estados.Remove("SP");
-estados["BA"] = "Bahia, melhor estado do Brasil";
+Console.WriteLine("------------------------------");
 
-foreach(var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
+Console.WriteLine($"ID: {outroExemploTupla.Item1}");
+Console.WriteLine($"Nome: {outroExemploTupla.Item2}");
+Console.WriteLine($"Sobrenome: {outroExemploTupla.Item3}");
+Console.WriteLine($"Altura: {outroExemploTupla.Item4}");
+
+Console.WriteLine("------------------------------");
+
+Console.WriteLine($"ID: {outroExemploTuplaCreate.Item1}");
+Console.WriteLine($"Nome: {outroExemploTuplaCreate.Item2}");
+Console.WriteLine($"Sobrenome: {outroExemploTuplaCreate.Item3}");
+Console.WriteLine($"Altura: {outroExemploTuplaCreate.Item4}");
 
 
 
+
+// Dictionary<string, string> estados = [];
+
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+// estados.Add("SP", "São Paulo");
+
+// foreach(var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// Console.WriteLine("------------------");
+
+// estados.Remove("SP");
+// estados["BA"] = "Bahia, melhor estado do Brasil";
+
+// foreach(var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
 
 
 
