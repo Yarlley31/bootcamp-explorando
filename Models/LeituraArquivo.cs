@@ -15,7 +15,7 @@ namespace bootcamp_explorando.Models
                 string[] linhas = File.ReadAllLines(caminho);
 
                 return(true, linhas, linhas.Count());
-            } catch(Exception ex)
+            } catch (Exception)
             {
                 return (false, Array.Empty<string>(), 0);
             }

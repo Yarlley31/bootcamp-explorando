@@ -1,31 +1,86 @@
 ﻿using bootcamp_explorando.Models;
 using System.Data;
 using System.Globalization;
+using System.Runtime.InteropServices;
 
-(int ID, string Nome, string Sobrenome, decimal Altura) registro = (1, "Marcos", "Matos", 1.70M);
 
-ValueTuple<int, string, string, decimal> outroExemploTupla = (2, "Danielle", "Oliveira", 1.68M);
+int num = 19;
+bool ehPar = false;
 
-var outroExemploTuplaCreate = Tuple.Create(1, "Yarlley", "Fernandes", 1.71M);
+// if ternário
+ehPar = num % 2 == 0;
 
-Console.WriteLine($"ID: {registro.ID}");
-Console.WriteLine($"Nome: {registro.Nome}");
-Console.WriteLine($"Sobrenome: {registro.Sobrenome}");
-Console.WriteLine($"Altura: {registro.Altura}");
+Console.WriteLine($"O número {num} é " + (ehPar ? "par." : "impar."));
 
-Console.WriteLine("------------------------------");
 
-Console.WriteLine($"ID: {outroExemploTupla.Item1}");
-Console.WriteLine($"Nome: {outroExemploTupla.Item2}");
-Console.WriteLine($"Sobrenome: {outroExemploTupla.Item3}");
-Console.WriteLine($"Altura: {outroExemploTupla.Item4}");
+// if (num % 2 == 0)
+// {
+//     Console.WriteLine($"O número {num} é par");
+// } else {
+//     Console.WriteLine($"O número {num} é par");
+// }
 
-Console.WriteLine("------------------------------");
 
-Console.WriteLine($"ID: {outroExemploTuplaCreate.Item1}");
-Console.WriteLine($"Nome: {outroExemploTuplaCreate.Item2}");
-Console.WriteLine($"Sobrenome: {outroExemploTuplaCreate.Item3}");
-Console.WriteLine($"Altura: {outroExemploTuplaCreate.Item4}");
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa ("Yarlley", "Fernandes");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new();
+
+// var (sucesso, linhasDoArquivo, _) = arquivo.LerArquivo("Arquivos/X-Files.txt");
+
+// if(sucesso)
+// {
+//     //Console.WriteLine("Quantidades de linhas do aquivo " + quantidadeDeLinhas);
+//     foreach(string linha in linhasDoArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// } else {
+//     Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+
+
+// (int ID, string Nome, string Sobrenome, decimal Altura) registro = (1, "Marcos", "Matos", 1.70M);
+
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (2, "Danielle", "Oliveira", 1.68M);
+
+// var outroExemploTuplaCreate = Tuple.Create(1, "Yarlley", "Fernandes", 1.71M);
+
+// Console.WriteLine($"ID: {registro.ID}");
+// Console.WriteLine($"Nome: {registro.Nome}");
+// Console.WriteLine($"Sobrenome: {registro.Sobrenome}");
+// Console.WriteLine($"Altura: {registro.Altura}");
+
+// Console.WriteLine("------------------------------");
+
+// Console.WriteLine($"ID: {outroExemploTupla.Item1}");
+// Console.WriteLine($"Nome: {outroExemploTupla.Item2}");
+// Console.WriteLine($"Sobrenome: {outroExemploTupla.Item3}");
+// Console.WriteLine($"Altura: {outroExemploTupla.Item4}");
+
+// Console.WriteLine("------------------------------");
+
+// Console.WriteLine($"ID: {outroExemploTuplaCreate.Item1}");
+// Console.WriteLine($"Nome: {outroExemploTuplaCreate.Item2}");
+// Console.WriteLine($"Sobrenome: {outroExemploTuplaCreate.Item3}");
+// Console.WriteLine($"Altura: {outroExemploTuplaCreate.Item4}");
 
 
 

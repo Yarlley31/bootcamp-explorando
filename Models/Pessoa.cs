@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,6 +16,12 @@ namespace bootcamp_explorando.Models
         {
             Nome = nome;
             Sobrenome = sobrenome;
+        }
+
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
         }
 
         // criando um campo
