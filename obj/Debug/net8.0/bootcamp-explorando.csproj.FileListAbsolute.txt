@@ -13,3 +13,6 @@ C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bo
 C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.genruntimeconfig.cache
 C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\ref\bootcamp-explorando.dll
 C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.sourcelink.json
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp-explorando.csproj.AssemblyReference.cache
+C:\Users\Yarlley\Documents\Programação\bootcamp-explorando\obj\Debug\net8.0\bootcamp.4DBAF93A.Up2Date

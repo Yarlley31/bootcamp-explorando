@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "Nome_Produto": "Kit Material Escolar",
+    "Preco": 78.5,
+    "DataDeVenda": "2024-08-26T22:03:50.3046761-03:00"
+  },
+  {
+    "Id": 2,
+    "Nome_Produto": "Pen drive",
+    "Preco": 20.0,
+    "DataDeVenda": "2024-08-26T22:03:50.3046761-03:00"
+  }
+]
